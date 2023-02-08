@@ -5,8 +5,9 @@ package com.saif.com;
 
 
     //this function just returns the index value of target
-    int sepublic class FirstandLastposition {
-        public static void main(String[] args) {
+    class FirstandLastposition {
+        int sepublic;
+    public static void main(String[] args) {
 
         }
 
@@ -33,7 +34,7 @@ package com.saif.com;
 //            } else {
 //                //potential
 //                // ans found
-        arch(int[] nums, int target, boolean findStartIndex) {
+        int search(int[] nums, int target, boolean findStartIndex) {
         int ans = -1;
         int start = 0;
         int end = nums.length - 1;
